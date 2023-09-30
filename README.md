@@ -1,11 +1,11 @@
 # Better Input
 
-## ����
+## 功能
 
-�ڴ����ע��֮���Զ��л����뷨���漰��ģ�ⰴ�����ò��˵Ļ��Թ���Ա��������VSCode���ԣ�
+在代码和注释之间自动切换输入法（涉及到模拟按键，用不了的话以管理员身份运行VSCode试试）
 
-gif
+![betterinput](image\betterinput.gif)
 
-���伴��
+开箱即用
 out-of-the-box
 
