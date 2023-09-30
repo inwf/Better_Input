@@ -1,0 +1,55 @@
+{
+    "name": "betterinput",
+    "displayName": "Better Input",
+    "description": "A VSCode plugin for better input method switching in files.在代码和注释之前自动切换输入法",
+    "version": "0.0.1",
+    "icon": "image/logo.png",
+    "publisher": "inwf",
+    "engines": {
+      "vscode": "^1.81.0"
+    },
+    "categories": [
+      "Other"
+    ],
+    "keywords": [
+      "better",
+      "input",
+      "comment",
+      "注释",
+      "输入法",
+      "inwf"
+    ],
+    "activationEvents": [
+      "onStartupFinished"
+    ],
+    "main": "./src/extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "betterinput.checkIfInComment",
+          "title": "Check If in Comment"
+        }
+      ]
+    },
+    "scripts": {
+      "lint": "eslint .",
+      "pretest": "npm run lint",
+      "test": "node ./test/runTest.js",
+      "vscode:prepublish": "npm run build",
+      "build": "tsc -p ./"
+    },
+    "devDependencies": {
+      "@types/vscode": "^1.82.0",
+      "@types/mocha": "^10.0.1",
+      "@types/node": "16.x",
+      "eslint": "^8.47.0",
+      "glob": "^10.3.3",
+      "mocha": "^10.2.0",
+      "typescript": "^5.1.6",
+      "@vscode/test-electron": "^2.3.4"
+    },
+    "dependencies": {
+        "ffi-napi": "^4.0.3"
+      }
+  }
+  
