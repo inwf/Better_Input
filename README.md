@@ -6,6 +6,8 @@
 
 ![betterinput](https://raw.githubusercontent.com/inwf/Better_Input/main/image/betterinput.gif)
 
-开箱即用
-out-of-the-box
+**开箱即用**
+**out-of-the-box**
 
+[项目主页](https://github.com/inwf/Better_Input)
+[了解更多？](https://inwf.github.io/2023/10/01/Better%20Input%EF%BC%9AVSCode%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/)
