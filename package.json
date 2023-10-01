@@ -6,7 +6,7 @@
     "icon": "image/logo.png",
     "publisher": "inwf",
     "engines": {
-      "vscode": "^1.81.0"
+      "vscode": "^1.82.0"
     },
     "categories": [
       "Other"
@@ -34,10 +34,8 @@
     "scripts": {
       "lint": "eslint .",
       "pretest": "npm run lint",
-      "test": "node ./test/runTest.js",
-      "vscode:prepublish": "npm run build",
-      "build": "tsc -p ./"
-    },
+      "test": "node ./test/runTest.js"
+  },
     "devDependencies": {
       "@types/vscode": "^1.82.0",
       "@types/mocha": "^10.0.1",
@@ -47,9 +45,6 @@
       "mocha": "^10.2.0",
       "typescript": "^5.1.6",
       "@vscode/test-electron": "^2.3.4"
-    },
-    "dependencies": {
-        "ffi-napi": "^4.0.3"
-      }
+    }
   }
   
